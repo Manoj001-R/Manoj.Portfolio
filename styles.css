@@ -53,6 +53,18 @@ span{
 .detel p{
   color:#555;
   line-height: 22px;
+  font-size: 20px;
+}
+.projects h2{
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.list{
+  color: rgb(69, 66, 70);
+  font-size: 20px;
+  
 }
 
 .detel a{
@@ -66,15 +78,17 @@ span{
   border-radius: 5px;
 }
 
+
 .images{
   width:45%;
-  height: 90%;
+  height: 70%;
   position:absolute;
   bottom: 0;
-  right:100px;
+  right:50px;
 }
+
 .images img{
-  height: 80;
+  height: 100;
   position: absolute;
   left:50%;
   bottom: 0;
@@ -83,7 +97,7 @@ span{
 }
 
 .images:hover .shape{
-  bottom:40px;
+  bottom:20px;
 }
 .images:hover .pro{
   left:45%
